@@ -6,7 +6,7 @@
 }
 
 body {
-	background: #f6f5f7;
+	background: #FFF6F4;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,10 +44,10 @@ a {
 	margin: 15px 0;
 }
 
-button {
+.btnlog {
 	border-radius: 20px;
-	border: 1px solid #0fbeca;
-	background-color: #0fbeca;
+	border: 1px solid #525FE1;
+	background-color: #525FE1;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -57,19 +57,55 @@ button {
 	transition: transform 80ms ease-in;
 }
 
-button:active {
+.btnlog:active {
 	transform: scale(0.95);
 }
 
-button:focus {
+.btnlog:focus {
 	outline: none;
 }
 
-button.ghost {
+.btnlog.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
+.btnsin {
+	border-radius: 20px;
+	border: 1px solid #F86F03;
+	background-color: #F86F03;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
 
+.btnsin:active {
+	transform: scale(0.95);
+}
+
+.btnsin:focus {
+	outline: none;
+}
+
+.btnsin.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+.btnghost {
+	border-radius: 20px;
+	background-color: transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
 form {
 	background-color: #FFFFFF;
 	display: flex;
@@ -160,11 +196,22 @@ input {
 .container.right-panel-active .overlay-container{
 	transform: translateX(-100%);
 }
-
+.col{
+	color:#F86F03;	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.col2{
+	color :#525FE1;	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
 .overlay {
-	background: #0fbeca;
-	background: -webkit-linear-gradient(to right, #0fbeca,#0fbeca);
-	background: linear-gradient(to right,#0fbeca, #0fbeca);
+	background: #525FE1;
+	background: -webkit-linear-gradient(to left, #525FE1,#F86F03);
+	background: linear-gradient(to left,#F86F03,#525FE1);
+	
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -182,6 +229,7 @@ input {
 }
 
 .overlay-panel {
+	
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -218,8 +266,8 @@ input {
 }
 
 .social-container a {
-	border: 1px solid #1b94bd;
-	background-color: #1b94bd;
+	border: 1px solid#ffffff;
+	background-color: #525ee1c5;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
@@ -228,17 +276,7 @@ input {
 	height: 40px;
 	width: 40px;
 }
-.social1 {
-	border: 1px solid #1b94bd;
-	background-color: #0f95ca79;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
-}
+
 footer {
     background-color: #222;
     color: #fff;
