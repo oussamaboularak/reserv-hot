@@ -46,9 +46,8 @@ function SignInUpForm() {
           <br></br>
           <span>or use social media for registration</span>
           <div className="social-container">
-            <a href="#" className="social" style={{ backgroundColor: '#3b5998 ' }}><i className="fab fa-facebook-f" style={{ color: 'white' }}></i></a>
-            <a href="#" className="social" style={{ backgroundColor: '#db4a39' }}><i className="fab fa-google-plus-g" style={{ color: 'white' }}></i></a>
-            <a href="#" className="social"style={{ backgroundColor: '#00acee' }}><i className="fab fa-twitter" style={{ color: 'white' }}></i></a>
+            <a href="www.facebook.com" className="social" style={{ backgroundColor: '#3b5998 ' }}><i className="fab fa-facebook-f" style={{ color: 'white' }}></i></a>
+            <a href="www.gmail.com" className="social" style={{ backgroundColor: '#db4a39' }}><i className="fab fa-google-plus-g" style={{ color: 'white' }}></i></a>
           </div>
         </form>
       </div>
@@ -62,9 +61,8 @@ function SignInUpForm() {
           <br></br>
           <span>or use social media for login</span>
           <div className="social-container">
-            <a href="#" className="social" style={{ backgroundColor: '#3b5998 ' }}><i className="fab fa-facebook-f" style={{ color: 'white' }}></i></a>
-            <a href="#" className="social" style={{ backgroundColor: '#db4a39' }}><i className="fab fa-google-plus-g" style={{ color: 'white' }}></i></a>
-            <a href="#" className="social"style={{ backgroundColor: '#00acee' }}><i className="fab fa-twitter" style={{ color: 'white' }}></i></a>
+            <a href="www.facebook.com" className="social" style={{ backgroundColor: '#3b5998 ' }}><i className="fab fa-facebook-f" style={{ color: 'white' }}></i></a>
+            <a href="www.gmail.com" className="social" style={{ backgroundColor: '#db4a39' }}><i className="fab fa-google-plus-g" style={{ color: 'white' }}></i></a>
           </div>
         
         </form>
